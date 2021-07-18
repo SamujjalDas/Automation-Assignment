@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46129" started-at="2021-07-18T20:34:33 IST" finished-at="2021-07-18T20:35:19 IST">
+  <suite name="Suite" duration-ms="100321" started-at="2021-07-18T21:09:23 IST" finished-at="2021-07-18T21:11:04 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46129" started-at="2021-07-18T20:34:33 IST" finished-at="2021-07-18T20:35:19 IST">
+    <test name="GmailTest" duration-ms="100321" started-at="2021-07-18T21:09:23 IST" finished-at="2021-07-18T21:11:04 IST">
       <class name="com.gmail.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.gmail.qa.testcases.HomePageTest@528931cf]" name="Setup" is-config="true" duration-ms="28860" started-at="2021-07-18T20:34:33 IST" finished-at="2021-07-18T20:35:02 IST">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.gmail.qa.testcases.HomePageTest@528931cf]" name="Setup" is-config="true" duration-ms="19205" started-at="2021-07-18T21:09:23 IST" finished-at="2021-07-18T21:09:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="readNameOfEmailSenderTest()[pri:1, instance:com.gmail.qa.testcases.HomePageTest@528931cf]" name="readNameOfEmailSenderTest" duration-ms="7210" started-at="2021-07-18T20:35:02 IST" finished-at="2021-07-18T20:35:09 IST">
+        <test-method status="PASS" signature="readNumberOfEmailTest()[pri:0, instance:com.gmail.qa.testcases.HomePageTest@528931cf]" name="readNumberOfEmailTest" duration-ms="6863" started-at="2021-07-18T21:09:43 IST" finished-at="2021-07-18T21:09:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readNumberOfEmailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gmail.qa.testcases.HomePageTest@528931cf]" name="tearDown" is-config="true" duration-ms="4998" started-at="2021-07-18T21:09:50 IST" finished-at="2021-07-18T21:09:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.gmail.qa.testcases.HomePageTest@528931cf]" name="Setup" is-config="true" duration-ms="16903" started-at="2021-07-18T21:09:55 IST" finished-at="2021-07-18T21:10:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="readNameOfEmailSenderTest()[pri:1, instance:com.gmail.qa.testcases.HomePageTest@528931cf]" name="readNameOfEmailSenderTest" duration-ms="6835" started-at="2021-07-18T21:10:11 IST" finished-at="2021-07-18T21:10:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readNameOfEmailSenderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gmail.qa.testcases.HomePageTest@528931cf]" name="tearDown" is-config="true" duration-ms="9980" started-at="2021-07-18T20:35:09 IST" finished-at="2021-07-18T20:35:19 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gmail.qa.testcases.HomePageTest@528931cf]" name="tearDown" is-config="true" duration-ms="6543" started-at="2021-07-18T21:10:18 IST" finished-at="2021-07-18T21:10:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.gmail.qa.testcases.HomePageTest@528931cf]" name="Setup" is-config="true" duration-ms="17188" started-at="2021-07-18T21:10:25 IST" finished-at="2021-07-18T21:10:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="sendEmailTest()[pri:2, instance:com.gmail.qa.testcases.HomePageTest@528931cf]" name="sendEmailTest" duration-ms="16462" started-at="2021-07-18T21:10:42 IST" finished-at="2021-07-18T21:10:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gmail.qa.testcases.HomePageTest@528931cf]" name="tearDown" is-config="true" duration-ms="5240" started-at="2021-07-18T21:10:59 IST" finished-at="2021-07-18T21:11:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.gmail.qa.testcases.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- GmailTest -->
+  </suite> <!-- Suite -->
 </testng-results>

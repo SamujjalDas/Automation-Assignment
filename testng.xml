@@ -5,5 +5,5 @@
 		<classes>
 			<class name="com.gmail.qa.testcases.HomePageTest" />
 		</classes>
-	</test> <!-- Test -->
+	</test>
 </suite>
