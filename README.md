@@ -1,5 +1,5 @@
 # Automation-Assignment
-TestCases :
+Test Cases :
 1. Read the number of emails in inbox
 2. Get the name of the person whose mail is at the top of the inbox
 3. Compose and send a mail with a subject "Automation Assignment" and body with current timestamp
